@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');*/
+@font-face{
+  font-family: "Quicksand";
+  src: url("public/Quicksand-Regular.ttf") format("truetype");
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   user-select: none; /* standard */
   -moz-user-select: none; /* firefox specific */
   -webkit-user-select: none; /* Chrome, Opera and Safari*/
@@ -31,7 +35,7 @@ body {
 }
 
 .months-container {
-  padding: 0 22%;
+  padding: 0 2rem;
   display: grid !important;
   grid-template-columns: repeat(auto-fill, minmax(210px, auto));
   grid-auto-rows: 1fr;

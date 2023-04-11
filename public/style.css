@@ -1,7 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');*/
 @font-face{
   font-family: "Quicksand";
-  src: url("public/Quicksand-Regular.ttf") format("truetype");
+  src: url("Quicksand-Regular.ttf") format("truetype");
 }
 
 * {
@@ -9,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   user-select: none; /* standard */
   -moz-user-select: none; /* firefox specific */
   -webkit-user-select: none; /* Chrome, Opera and Safari*/

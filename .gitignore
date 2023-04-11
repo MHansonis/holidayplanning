@@ -1,5 +1,5 @@
 # See https://github.com/github/gitignore for more about ignoring files.
-
+package-lock.json
 # Logs
 logs
 *.log

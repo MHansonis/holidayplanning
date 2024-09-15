@@ -2,10 +2,18 @@ const createError = require("http-errors")
 const express = require("express")
 const path = require("path")
 const logger = require("morgan")
+const cors = require("cors")
 
 const indexRouter = require("./routes/index")
 
 const app = express()
+
+// CORS
+const corsOptions = {
+    origin: "http://example.com", // Replace with your specific URL
+    optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions))
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"))

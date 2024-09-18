@@ -1,4 +1,21 @@
-Holiday Planning
+# Dynamic Holiday Calender
 
-Dynamic Holiday planner with API pulled holidays for NRW, Germany.
-Show your weekly rotating free days at my last employer after picking the first rotating day.
+Dynamic Holiday Calender with API pulled holidays for NRW, Germany.
+Shows your weekly rotating free days for the current and next year. 
+My last employer had a set pattern of rotating off days.
+
+### The Pattern was
+Monday, Monday, Tuesday, Monday and Wednesday, Thursday, Monday + Friday, Saturday
+
+### Prerequisites
+Nodejs
+
+### Setup
+
+```
+npm install
+```
+
+```
+npm run start
+```
